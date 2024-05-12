@@ -1,0 +1,52 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "LangWay",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/check": {
+        "post": {
+          "description": "Esta aplicação utiliza a tecnologia de Inteligência Artificial Generativa, baseada no modelo GEMINI do Google, com o propósito de fornecer ao usuário uma avaliação do seu nível de conhecimento em um idioma estrangeiro específico. O funcionamento da aplicação é simples: você insere um texto de sua autoria no idioma que deseja avaliar no campo 'prompt', e indica o idioma desejado para a avaliação no campo 'language'. A aplicação então retorna o seu nível atual no idioma, destacando pontos fortes e sugerindo melhorias para o seu aprendizado.",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "access data",
+              "in": "body",
+              "description": "JSON data for the api",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/AccessData"
+              }
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "Após a análise, o GEMINI retorna um feedback detalhado sobre o seu nível de proficiência no idioma, levando em consideração diversos parâmetros, como gramática, vocabulário, fluência e coerência textual. Além disso, são fornecidas sugestões personalizadas para ajudar você a melhorar suas habilidades linguísticas de forma eficaz e direcionada."
+            },
+            "400": {
+              "description": "O erro indica que há problemas na entrada fornecida. Verifique se incluiu os dois parâmetros solicitados, 'prompt' e 'language'. Se o erro persistir, pode ser que a API do Gemini esteja enfrentando algum problema temporário."
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "AccessData": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
