@@ -1,6 +1,6 @@
 <!-- ![thumbnail-Formação Java (4)](https://user-images.githubusercontent.com/66698429/226751112-f79aaa28-16c9-4561-8a15-0ac62ec9cb44.png) -->
 
-<a name="luk3mn.github.io">
+<a name="lang_way">
     <img src="https://raw.githubusercontent.com/luk3mn/luk3mn/main/soft_cover.png" width="1480">
 </a>
 
@@ -10,7 +10,7 @@
 [![personal][personal-shield]][personal-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=Development&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=Finished&color=GREEN&style=for-the-badge)
 
 <!-- ![image](soft%20(1).png) -->
 
@@ -20,12 +20,12 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Project Name Here</h3>
+  <h3 align="center">Lang Way</h3>
 
   <p align="center">
-    description here
+    Backend application developed for the 'Imersão AI' challenge by Alura in partnership with Google.
     <br />
-    <a href="https://github.com/luk3mn/luk3mn.github.io/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/luk3mn/lang_way/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
@@ -64,13 +64,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is an application that utilizes Generative AI based on Google's GEMINI model, aimed at providing users with guidance regarding their proficiency level in a specific foreign language. The application functions as follows: provide a text written by yourself in the language you wish to evaluate in the 'prompt' input field, and indicate the desired language in the 'language' input field. The application will then return your current level in the language, along with highlights and suggestions for improvement.
 <!-- IMAGE (OPCIONAL) -->
+![image](assets/diagram.png)
 
 <p align="justify">
 
 </p> 
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 ### Built With
 
@@ -78,13 +80,8 @@ Write here
 
 * [![Python][Python]][Python-url]
 * [![Flask][Flask]][Flask-url]
-* [![Java][Java]][Java-url]
-* [![Spring][Spring]][Spring-url]
-* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-* [![Mongo][Mongo]][Mongo-url]
-* [![Javascript][Javascript]][Javascript-url]
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 
@@ -95,7 +92,7 @@ Here are some important topics about this project and how to replay it.
 
 ### Prerequisites
 
-* 
+* [API Key from Google AI Studio](https://empresas.alura.com.br/e3t/Ctc/I8+113/d2z6gD04/VVz2CP5T59XZW3W8W7f6nGp2TW33LWhB5dXJRXN26s6063qgyTW6N1vHY6lZ3pSW5L1nmB3MbPmwW3sWbMx519LgtVdsgWL2bKcyPVWDZWQ77rXw8W2h5jYy4gdKzjVvdc4g5j0MnqV9t9Xp18DGJQW3ZZHB94-QwVXW4_kt_S4mCHlMW6jGZRl1HyXVcW4G8vBP1f20Z8N3_jGtKf8mLqVMbQj71c3D8NW7qJbnB6W6Sd9V1zfP84ZbgWzW3Hhwsf7dh2-YW2P58l_7M9b70W5dLh2b54tGTnW9g7Txc1pTfwKW50mMpD3jGHQ4W7X6GNj9lMB_HVLkMYT8GmlRNf96tBNK04)
 
 ### Installation
 
@@ -103,11 +100,15 @@ _Before starting this application in your local environment, it'll be necessary 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/luk3mn/luk3mn.github.io.git
+   git clone https://github.com/luk3mn/lang_way.git
    ```
+2. Dependencies
+  ```sh
+  pip3 freeze -r requirements.txt
+  ```
 
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 
@@ -115,16 +116,19 @@ _Before starting this application in your local environment, it'll be necessary 
 <!-- ## Usage -->
 
 <!-- Deploy -->
-<!-- ## Deploy -->
-
+## Deploy
+* [Lang Way](https://langway.vercel.app/swagger)
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ]
+- [x] Google Gemini API
+- [x] Project structure
+- [x] POST /check
+- [x] Swagger implementation
 
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 
@@ -133,7 +137,7 @@ _Before starting this application in your local environment, it'll be necessary 
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 
@@ -145,36 +149,37 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 If you have any feedback, please reach out to us at lucasnunes2030@gmail.com
 
-> Project Link: [https://github.com/luk3mn/luk3mn.github.io](https://github.com/luk3mn/luk3mn.github.io)
+> Project Link: [https://github.com/luk3mn/lang_way](https://github.com/luk3mn/lang_way)
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+* [Alura](https://www.alura.com.br/)
+* [Google Gemini](https://deepmind.google/technologies/gemini/#gemini-1.5)
 * [Flask Python- Swagger for rest apis](https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7)
 
 
-<p align="right">(<a href="#luk3mn.github.io">back to top</a>)</p>
+<p align="right">(<a href="#lang_way">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/luk3mn/luk3mn.github.io.svg?style=for-the-badge
-[contributors-url]: https://github.com/luk3mn/luk3mn.github.io/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/luk3mn/luk3mn.github.io.svg?style=for-the-badge
-[issues-url]: https://github.com/luk3mn/luk3mn.github.io/issues
-[forks-shield]: https://img.shields.io/github/forks/luk3mn/luk3mn.github.io.svg?style=for-the-badge
-[forks-url]: https://github.com/luk3mn/luk3mn.github.io/network/members
-[stars-shield]: https://img.shields.io/github/stars/luk3mn/luk3mn.github.io.svg?style=for-the-badge
-[stars-url]: https://github.com/luk3mn/luk3mn.github.io/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/luk3mn/lang_way.svg?style=for-the-badge
+[contributors-url]: https://github.com/luk3mn/lang_way/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/luk3mn/lang_way.svg?style=for-the-badge
+[issues-url]: https://github.com/luk3mn/lang_way/issues
+[forks-shield]: https://img.shields.io/github/forks/luk3mn/lang_way.svg?style=for-the-badge
+[forks-url]: https://github.com/luk3mn/lang_way/network/members
+[stars-shield]: https://img.shields.io/github/stars/luk3mn/lang_way.svg?style=for-the-badge
+[stars-url]: https://github.com/luk3mn/lang_way/stargazers
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/luk3mn/luk3mn.github.io/blob/master/LICENSE
+[license-url]: https://github.com/luk3mn/lang_way/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lucasmaues/
-[personal-shield]: https://img.shields.io/static/v1?label=Luke&message=🎸&color=2e3643&style=for-the-badge&colorB=555
+[personal-shield]: https://img.shields.io/static/v1?label=Alura&message=AI&color=blue&style=for-the-badge&colorB=555
 [personal-url]: https://www.rocketseat.com.br/
 
 <!-- Stack Shields -->
@@ -182,13 +187,3 @@ If you have any feedback, please reach out to us at lucasnunes2030@gmail.com
 [Python-url]: https://www.python.org/
 [Flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=ffffff
 [Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
-[Java]: https://img.shields.io/badge/Java-E02027?style=for-the-badge&logo=java&logoColor=ffffff
-[Java-url]: https://www.java.com/en/
-[Spring]: https://img.shields.io/badge/SrpingBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=ffffff
-[Spring-url]: https://spring.io/projects/spring-boot
-[PostgreSQL]: https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff
-[PostgreSQL-url]: https://www.postgresql.org/
-[Mongo]: https://img.shields.io/badge/Mongodb-green?style=for-the-badge&logo=mongodb&logoColor=ffffff
-[Mongo-url]: https://www.mongodb.com/docs/
-[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[Javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
